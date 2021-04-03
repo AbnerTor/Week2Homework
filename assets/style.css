@@ -33,6 +33,12 @@ body {
     position: relative;
     left: 515px;
 }
+#picture {
+    border-radius: 15px;
+    border-left: solid;
+    border-top: solid;
+    border-color: #010e28;
+}
 #keebImg {
     position: relative;
     left: 768px;
@@ -96,6 +102,10 @@ body {
     left: -34px;
 }
 
+img {
+    border-radius: 15px;
+}
+
 #projectMini {
     width: 35%;
     border-left: solid;
@@ -104,7 +114,7 @@ body {
     padding-left: 2%;
     font-size: 20px;
     position: relative;
-    left: -90px;
+    left: -76px;
     height: fit-content;
 
 }
@@ -128,9 +138,7 @@ body {
 #contactHeader {
     font-size: 45px;
     position: relative;
-    left: -40 
-    
-    px;
+    left: px; 
 }
 #infoList {
     font-size: 20px;
@@ -168,3 +176,41 @@ body {
 #imgHolder {
     padding-top: 5px;
 }
+
+@media screen and (max-width: 900px) {
+    #headerMain {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboveName {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    #myname {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 100px;
+
+    }
+
+    #aboutMe {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    #contactInfo {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
