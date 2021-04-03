@@ -6,40 +6,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <p>Hello, my name is</p>
-        <h1>Abner Toribio-Vazquez</h1>
+    <header id="headerMain">
+        <div class="aboveName">Hello, my name is</div>
+        <div id="myName">Abner Toribio-Vazquez</div>
+        <img id="keebImg" src="assets/images/keyboard-icon-myiconfinder-904925.png" alt="keyboard-png" width="300px">
     </header>
+
     <div class="container">
 
         <div id="topLinks">
-            <p>About Me</p>
-            <p>Projects</p>
-            <p>Contact</p>
+            <a href="#aboutMe">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contactInfo">Contact Me</a>
         </div>
 
         <div id="infoContainer">
 
             <div id="aboutMe">
-                <h3>About Me</h3>
+                <h3 id="abmHeader">A Little About Me</h3>
+
+                <div id="aboutMeText">
+                    <p>Hello, so you’ve stumbled across my page, welcome. My name is Abner, I’m a web developer in
+                        progress. I have an AS degree in Business Administration with a background in sales. I did sales
+                        among many other things for a few years, but I felt disconnected from my work, I wasn’t doing or
+                        working towards something that I felt no ties to, and so in late 2020, I decided to change
+                        career paths and signed up for the coding bootcamp at UNC Chapel Hill. I am still undergoing the
+                        process of learning web development but I have high hopes for what lies ahead.
+                    </p>
+
+                    <p>
+                        Here are some if the technologies/programs I am familiar with:
+                    <ul>
+                        <li>HTML & CSS</li>
+                        <li>Javascript & Jquery</li>
+                        <li>Node.js</li>
+                        <li>Github & Git</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                    </p>
+
+                </div>
             </div>
 
-            <div id="Projects">
-                <h3>Projects</h3>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div id="projects">
+
+                <div id="projectHeader">
+                    <h3>Projects</h3>
+                </div>
+
+                <div id="projectMini">
+                    <p>Here are some projects that I've worked on:</p>
+
+                    <div id="project1">
+                        <a
+                            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5cFgLcg4H7ZY5gAX6Tx8y1nU7p_uUj5H8zxz74ZGXvdiSZ7WLMsAw22jG4Jt4cU98x8&usqp=CAU">
+
+                            <img src="https://miro.medium.com/max/8576/1*EE4IrlniNAhubIUrFqV3FQ.jpeg" alt="project1"
+                                height="575" width="auto">
+                        </a>
+
+                        <a
+                            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5cFgLcg4H7ZY5gAX6Tx8y1nU7p_uUj5H8zxz74ZGXvdiSZ7WLMsAw22jG4Jt4cU98x8&usqp=CAU">
+                            <p id="p1Para">Project 1</p>
+                        </a>
+                    </div>
+
+                    <div class="img" id="projectContainer2">
+
+                    <div class="project2" id="imgHolder">
+                        <a
+                            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5cFgLcg4H7ZY5gAX6Tx8y1nU7p_uUj5H8zxz74ZGXvdiSZ7WLMsAw22jG4Jt4cU98x8&usqp=CAU">
+
+                            <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+                                alt="project1" height="auto" width="130%">
+                        </a>
+
+                        <a
+                            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5cFgLcg4H7ZY5gAX6Tx8y1nU7p_uUj5H8zxz74ZGXvdiSZ7WLMsAw22jG4Jt4cU98x8&usqp=CAU">
+                            <p id="pPara">Project 2</p>
+                        </a>
+                    </div>
+
+                    <div class="project3" id="imgHolder">
+                        <a
+                            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5cFgLcg4H7ZY5gAX6Tx8y1nU7p_uUj5H8zxz74ZGXvdiSZ7WLMsAw22jG4Jt4cU98x8&usqp=CAU">
+
+                            <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+                                alt="project1" height="auto" width="130%">
+                        </a>
+
+                        <a
+                            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5cFgLcg4H7ZY5gAX6Tx8y1nU7p_uUj5H8zxz74ZGXvdiSZ7WLMsAw22jG4Jt4cU98x8&usqp=CAU">
+                            <p id="pPara">Project 3</p>
+                        </a>
+                    </div>
+
+                    <div class="project4" id="imgHolder">
+                        <a
+                            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5cFgLcg4H7ZY5gAX6Tx8y1nU7p_uUj5H8zxz74ZGXvdiSZ7WLMsAw22jG4Jt4cU98x8&usqp=CAU">
+
+                            <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+                                alt="project1" height="auto" width="130%">
+                        </a>
+
+                        <a
+                            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5cFgLcg4H7ZY5gAX6Tx8y1nU7p_uUj5H8zxz74ZGXvdiSZ7WLMsAw22jG4Jt4cU98x8&usqp=CAU">
+                            <p id="pPara">Project 4</p>
+                        </a>
+                    </div>
+
+                    <div class="project5" id="imgHolder">
+                        <a
+                            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5cFgLcg4H7ZY5gAX6Tx8y1nU7p_uUj5H8zxz74ZGXvdiSZ7WLMsAw22jG4Jt4cU98x8&usqp=CAU">
+
+                            <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+                                alt="project1" height="auto" width=130%%">
+                        </a>
+
+                        <a
+                            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5cFgLcg4H7ZY5gAX6Tx8y1nU7p_uUj5H8zxz74ZGXvdiSZ7WLMsAw22jG4Jt4cU98x8&usqp=CAU">
+                            <p id="pPara">Project 5</p>
+                        </a>
+                    </div>
+                    </div>
+
+                </div>
             </div>
 
             <div id="contactInfo">
-                <h3>Contact</h3>
+
+                <h3 id="contactHeader">Contact</h3>
+                
+                <ul id="infoList">
+
+                    <div id="emailLink"><a href="mailto: abnertoribio@live.com">Email me</a></div>
+                    <div id="phoneNumber">Cell-phone: 123-456-7890</div>
+                    <div id="otherContact"><a
+                            href="https://www.linkedin.com/in/abner-toribio-vazquez-726241127/">linkedin</a></div>
+                </ul>
             </div>
 
         </div>
