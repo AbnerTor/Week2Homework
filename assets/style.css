@@ -118,9 +118,7 @@ img {
     height: fit-content;
 
 }
-{
-    width: 25%;
-}
+
 #p1Para {
     position: relative;
     bottom: 250px;
@@ -161,6 +159,7 @@ img {
 
 #projectMini {
 }
+
 #imgHolder {
     border-radius: 15px;
 }
